@@ -1,0 +1,31 @@
+--Faça uma consulta sobre o faturamento do e-market. Inclua as seguintes informações:
+--ID da fatura
+--data da fatura
+--nome da empresa de correio (O id da empresa consta da tabela faturas no campo --FormaEnvio)
+--nome do cliente
+--categoria do produto vendido
+--nome do produto(Você chega ao produto consultando os detalhes da fatura)
+--preço unitário
+--quantidade
+
+SELECT faturas.FaturaId, faturas.DataFatura, correios.Empresa, clientes.Contato, categorias.CategoriaNome,
+produtos.ProdutoNome, detalhefatura.PrecoUnitario, detalhefatura.Quantidade
+ FROM faturas
+ INNER JOIN correios ON correios.CorreioID = faturas.FormaEnvio
+ INNER JOIN clientes ON clientes.ClienteID = faturas.ClienteID
+ INNER JOIN detalhefatura ON detalhefatura.FaturaId = faturas.FaturaId
+ INNER JOIN produtos ON produtos.ProdutoID = detalhefatura.ProdutoID
+ INNER JOIN categorias ON categorias.CategoriaID = produtos.CategoriaID
+ ;
+
+
+
+#Relatórios II parte II - INNER, LEFT e RIGHT JOIN
+# 1 - Liste todas as categorias junto com informações sobre seus produtos. 
+#Incluir todas as categorias, mesmo que não tenham produtos.
+
+SELECT *
+FROM categorias
+LEFT JOIN produtos
+ON categorias.CategoriaID = produtos.CategoriaID
+;
