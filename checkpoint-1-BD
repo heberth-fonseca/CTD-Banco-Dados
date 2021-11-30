@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T11:57:52.328Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="FeVEC1rrRWiilyHiwTPt" version="15.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T14:51:59.062Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="lXcdNItywWz39HB92xvy" version="15.6.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1902" dy="1024" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1800" pageHeight="1200" background="#114B5F" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2142" dy="1024" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1800" pageHeight="1200" background="#114B5F" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,7 +256,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ciMqsC1uq70rR1sDiKq9-41" value="venda_id INT NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;" parent="ciMqsC1uq70rR1sDiKq9-39" vertex="1">
+        <mxCell id="ciMqsC1uq70rR1sDiKq9-41" value="compra_id INT NOT NULL AUTO_INCREMENT" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;rounded=0;sketch=0;fontColor=#E4FDE1;strokeColor=#028090;" parent="ciMqsC1uq70rR1sDiKq9-39" vertex="1">
           <mxGeometry x="30" width="276" height="30" as="geometry">
             <mxRectangle width="276" height="30" as="alternateBounds" />
           </mxGeometry>
